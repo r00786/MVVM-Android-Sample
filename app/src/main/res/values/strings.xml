@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MoviesNew</string>
+    <string name="search">Search</string>
+    <string name="image_to_show_movie_banner">Image To Show Movie Banner</string>
+</resources>

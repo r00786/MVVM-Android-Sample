@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_150">
+
+    <ImageView
+        android:id="@+id/iv_movie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image_to_show_movie_banner"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_movie_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/size_10"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_16" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_movie_name"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/size_10"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_16" />
+
+    <View
+        android:id="@+id/v_middle"
+        android:layout_width="@dimen/size_1"
+        android:layout_height="@dimen/size_1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
